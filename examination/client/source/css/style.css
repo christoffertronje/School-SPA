@@ -1,0 +1,323 @@
+body{
+  background-image: url(../image/spaBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.dragBarButtons{
+  display: inline;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.closeButton {
+  background-color: darkred;
+  color: darkred;
+
+}
+.miniButton{
+  background-color: yellow;
+  color: yellow;
+
+}
+
+.miniButton:hover:not(.active) {
+
+  color: darkgoldenrod;
+
+}
+
+.closeButton:hover:not(.active) {
+
+  color: red;
+
+}
+
+
+.dragBar{
+  background: grey;
+  width:100%;
+  height:10%;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.settingsBar{
+  background: black;
+  width:100%;
+  height:10%;
+}
+
+.appContainer {
+  width:300px;
+  height:350px;
+  background-color:white;
+  border-style: solid;
+  border-color: lightblue;
+  border-radius: 10px;
+  color:white;
+  position:absolute;
+}
+
+.scrollChat{
+  overflow-y: scroll;
+  background-color: black;
+  height: 240px;
+  word-wrap: break-word;
+}
+
+.sentText{
+  color: white;
+}
+
+.middle{
+  height: 50%;
+  width: 50%;
+  /*display: inline;
+  text-align: left;
+*/}
+
+#menuBar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-style: solid;
+  border-top-color: lightblue;
+
+}
+
+#menuBarList{
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.menuList {
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-right:1px solid #bbb;
+}
+
+#menuBar li:last-child {
+  border-right: none;
+}
+
+.menuElement:hover:not(.active) {
+  background-color: darkred;
+
+}
+
+#menuBar ul li img{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+
+.active {
+  background-color: #4CAF50;
+}
+
+.memory img {
+  width: 60px;
+  height: 60px;
+}
+
+.memory .remove{
+  visibility: hidden;
+}
+
+.remove{
+  visibility: hidden;
+}
+
+.memory{
+  display: table;
+  margin: 0 auto;
+  background-color: #393939;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: auto;
+  border-radius: 7px 7px 7px 7px;
+
+}
+
+.iconImage{
+  position: absolute;
+  right: 0px;
+  width: 35px;
+  height: 35px;
+  padding: 1px;
+}
+
+.aTile{
+  border-radius: 15px 15px 15px 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn{
+  display: inline;
+}
+
+.dropdown-content{
+  display: none;
+  min-width: 100px;
+}
+
+
+.dropdown-content label{
+  padding: 2px;
+  color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: inline;
+}
+
+.dropdown-content label:hover {
+color: red;
+
+}
+
+
+
+.dropmenulol {
+  display: none;
+  width:150px;
+  padding:5px;
+  position:absolute;
+  bottom: 60px;
+  color: red;
+}
+
+.dropmenulol li label {
+  display: block;
+}
+
+.dropmenulol li {
+  display: block;
+}
+
+.menuBarHover:hover .dropmenulol{
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+
+
+.inputText{
+  display: inline;
+  position:absolute;
+  bottom: 0;
+  width:85%;
+  padding: 1%;
+  border-radius: 7px 7px 7px 7px;
+  color: white;
+  background-color: black;
+  resize: none;
+}
+
+.minimized{
+  visibility: hidden;
+}
+
+.sentText{
+  margin: 0;
+  padding: 5%;
+  display: block;
+}
+
+.sentTextBackground1{
+  background-color: #222222;
+
+}
+
+.sentTextBackground2{
+  background-color: #393939;
+
+}
+
+
+.sendMessage{
+  display: inline;
+  position: absolute;
+  padding: 12px 7px;
+  text-decoration: none;
+  border: none;
+  background-color: gainsboro;
+  color: black;
+  bottom: 0;
+  right:0;
+}
+
+.sendMessage:hover{
+  background-color: darkgreen;
+}
+
+.selfSent{
+  color: green;
+}
+
+.recievedMessage{
+  color: darkgoldenrod;
+}
+
+.app{
+  position: absolute;
+  background-color: black;
+  color: white;
+  height: 280px;
+  width: 300px;
+  border-radius: 0px 0px 7px 7px;
+
+}
+
+.usernameDiv{
+  display: block;
+}
+
+.oneToNine{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+
+}
+/*
+.oneToNine:hover{
+  background-color: red;
+}
+*/
+.changeColor{
+}
+
+.wacked{
+}
+
+.diglettLabel{
+  padding: 5px;
+}
+
+
+
+html,body{
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  border:0;
+
+}

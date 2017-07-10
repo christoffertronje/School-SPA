@@ -1,0 +1,133 @@
+<html>
+  <head>
+
+    <title>Christoffers SPA</title>
+    <link rel="stylesheet" href="stylesheet/style.css"/>
+
+  </head>
+
+  <body>
+
+  <div id = "menuBar">
+    <ul id = 'menuBarList'>
+      <li class="menuList"><img src = 'image/0.png' id="memory" class = "aTile"></li>
+      <li class="menuList"><img src = 'image/chatIcon.png' id="chat"></li>
+      <li class="menuList"><img src = 'image/iconDiglett.png' id="whackulator"></li>
+    </ul>
+  </div>
+
+
+
+  <div id = "appsContainer">
+  </div>
+
+
+  <div id = "memoryContainer">
+
+
+    <template id = "dropDownMenu">
+      <div class="dropdown">
+        <button class="dropbtn">Memory size</button>
+        <div class="dropdown-content">
+          <label>2x2</label>
+          <label>3x4</label>
+          <label>4x4</label>
+        </div>
+      </div>
+    </template>
+
+
+    <template id = "minimizeListTemp">
+      <div class="page">
+            <ul class="dropmenulol">
+            </ul>
+      </div>
+    </template>
+
+    <template id = "minimizeTemp">
+      <li><label></label></li>
+    </template>
+
+    <template id = "inputText">
+    <input type = "text">
+    </template>
+
+
+  </div>
+
+  <template id="template">
+    <div class="appContainer">
+
+      <div class="dragBar">
+        <input class = "dragBarButtons closeButton" type="button" name="close" value="X">
+        <input class = "dragBarButtons miniButton" type="button" name="minimize" value="-">
+      </div>
+
+      <div class="settingsBar">
+      </div>
+
+      <div class = "app"></div>
+
+    </div>
+  </template>
+
+
+  <template id = "memoryTemp">
+    <div class = "memory">
+      <a href="#">
+        <img src = 'image/0.png' alt = 'A memory brick'>
+      </a>
+    </div>
+  </template>
+
+  <div id = "chatContainer">
+
+    <template>
+      <div class="chatTools">
+        <div class="scrollChat"></div>
+        <textarea type="text" class="inputText"></textarea>
+        <button class="sendMessage">Send</button>
+      </div>
+    </template>
+
+    <template id = "textTextTemplate">
+      <p class="sentText"></p>
+    </template>
+
+    <template id = "icons">
+      <img src="./image/chatIcon.png" class="iconImage">
+      <img src="./image/0.png" class="iconImage">
+      <img src="./image/iconDiglett.png" class="iconImage">
+    </template>
+
+    <template id = "userNameTemp">
+      <div class="usernameDiv">
+        <label>Username: </label>
+        <input type="text" class="userName">
+        <button class="startChat" id = "startChat1">Start</button>
+        <button class="startChat" id = "startChat2"></button>
+      </div>
+    </template>
+
+  </div>
+
+
+  <div id="whackulatorContainer">
+
+    <template id="oneToNineTemp">
+      <img src="./image/diglettHole.png" class ="oneToNine" type = "image">
+    </template>
+
+  </div>
+
+
+  <template id = "buttonTemp">
+    <input type="button" value = "Done">
+  </template>
+
+
+
+    <script src="javascript/build.js"></script>
+  </body>
+
+</html>
